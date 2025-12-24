@@ -1,2 +1,2 @@
 # AnihDev
-My personal GitHub repository — CKB weekly reports & projects.
+My personal repo for CKB weekly reports & projects.
