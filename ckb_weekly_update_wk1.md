@@ -1,7 +1,7 @@
 # Builder Track Weekly Status Update -- Week 1
 
 **Name:** Anih Soma (AnihDev)  
-**Duration:** <st: 18th Dec, 2025 - stp: 25th Dec, 2025>
+**Duration:** st: 18th Dec, 2025 - stp: 25th Dec, 2025
 
 ## Courses Completed This Week
 
