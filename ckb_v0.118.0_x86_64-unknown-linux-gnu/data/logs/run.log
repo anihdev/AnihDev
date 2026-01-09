@@ -1,0 +1,40 @@
+2026-01-09 18:15:09.417 +00:00 main INFO sentry  sentry is disabled
+2026-01-09 18:15:09.516 +00:00 main INFO ckb_bin::subcommand::run  ckb version: 0.118.0 (b0bde9f 2024-09-14)
+2026-01-09 18:15:09.516 +00:00 main INFO ckb_bin::subcommand::run  run rpc server with 8 threads
+2026-01-09 18:15:09.518 +00:00 main INFO ckb_launcher  Miner is disabled; edit ckb.toml to enable it
+2026-01-09 18:15:10.048 +00:00 main INFO ckb_db_migration  Init database version 20231101000000
+2026-01-09 18:15:10.071 +00:00 main INFO ckb_launcher  Touch chain spec hash: Byte32(0x766f5afca0664121d924677bd1a2dd5a88b056ecf140be39207c832a4c7505b4)
+2026-01-09 18:15:10.074 +00:00 main INFO ckb_memory_tracker::process  track current process: disable
+2026-01-09 18:15:10.085 +00:00 main INFO ckb_launcher  chain genesis hash: 0xa4d082326f94be3fca0793a23e420adb7ac4d73c26017e6302132a60b63bbf12
+2026-01-09 18:15:10.085 +00:00 init_load_unverified_blocks INFO ckb_chain::init_load_unverified  finding unverified blocks, current tip: 0-Byte32(0xa4d082326f94be3fca0793a23e420adb7ac4d73c26017e6302132a60b63bbf12)
+2026-01-09 18:15:10.085 +00:00 init_load_unverified_blocks INFO ckb_chain::init_load_unverified  no unverified blocks found after tip, current tip: 0-Byte32(0xa4d082326f94be3fca0793a23e420adb7ac4d73c26017e6302132a60b63bbf12)
+2026-01-09 18:15:10.085 +00:00 init_load_unverified_blocks INFO ckb_chain::init_load_unverified  find unverified blocks finished
+2026-01-09 18:15:10.085 +00:00 main INFO ckb_sync::types  header_map.memory_limit 256MB
+2026-01-09 18:15:10.085 +00:00 main INFO ckb_network::network  Loading the peer store. This process may take a few seconds to complete.
+2026-01-09 18:15:10.086 +00:00 GlobalRt-0 INFO ckb_network::network  Listen on address: /ip4/0.0.0.0/tcp/8115
+2026-01-09 18:15:10.086 +00:00 GlobalRt-0 INFO ckb_network::network  p2p service event: ListenStarted { address: "/ip4/0.0.0.0/tcp/8115" }
+2026-01-09 18:15:10.123 +00:00 main INFO ckb_rpc::server  Listen HTTP RPCServer on address: 127.0.0.1:8114
+2026-01-09 18:15:10.260 +00:00 main INFO ckb_bin::subcommand::run  CKB service started ...
+2026-01-09 18:15:10.261 +00:00 main INFO ckb_stop_handler::stop_register  Waiting exit signal...
+2026-01-09 19:10:18.521 +00:00 ctrl-c INFO ckb_bin::subcommand::run  Trapped exit signal, exiting...
+2026-01-09 19:10:18.531 +00:00 GlobalRt-7 INFO ckb_shared::types::header_map  HeaderMap limit_memory received exit signal, exit now
+2026-01-09 19:10:18.533 +00:00 GlobalRt-5 INFO ckb_tx_pool::service  TxPool is saving, please wait...
+2026-01-09 19:10:18.535 +00:00 GlobalRt-7 INFO ckb_tx_pool::verify_mgr  TxPool chunk_command service received exit signal, exit now
+2026-01-09 19:10:18.536 +00:00 GlobalRt-7 INFO ckb_tx_pool::verify_mgr  Verify worker::process_inner exit_signal is cancelled
+2026-01-09 19:10:18.536 +00:00 GlobalRt-7 INFO ckb_tx_pool::verify_mgr  TxPool verify_mgr service exited
+2026-01-09 19:10:18.535 +00:00 GlobalRt-2 INFO ckb_notify  NotifyService received exit signal, exit now
+2026-01-09 19:10:18.534 +00:00 ChainService INFO ckb_chain::chain_service  ChainService received exit signal, exit now
+2026-01-09 19:10:18.539 +00:00 GlobalRt-7 INFO ckb_tx_pool::service  TxPool reorg process service received exit signal, exit now
+2026-01-09 19:10:18.540 +00:00 GlobalRt-3 INFO ckb_block_filter::filter  BlockFilter received exit signal, exit now
+2026-01-09 19:10:18.539 +00:00 GlobalRt-0 INFO ckb_network::network  NetworkService receive exit signal, start shutdown...
+2026-01-09 19:10:18.542 +00:00 GlobalRt-0 INFO ckb_network::network  NetworkService shutdown now
+2026-01-09 19:10:18.542 +00:00 preload_unverified_block INFO ckb_chain::preload_unverified_blocks_channel  preload_unverified_blocks thread received exit signal, exit now
+2026-01-09 19:10:18.549 +00:00 GlobalRt-4 INFO ckb_network::network  p2p service event: ListenClose { address: "/ip4/0.0.0.0/tcp/8115" }
+2026-01-09 19:10:18.561 +00:00 GlobalRt-5 INFO ckb_tx_pool::process  TxPool saved successfully
+2026-01-09 19:10:18.561 +00:00 GlobalRt-5 INFO ckb_tx_pool::service  TxPool process_service exit now
+2026-01-09 19:10:18.566 +00:00 verify_blocks ERROR ckb_chain::verify  unverified_block_rx err: receiving on an empty and disconnected channel
+2026-01-09 19:10:18.573 +00:00 ChainService WARN ckb_chain::init  trying to notify consume unverified thread to stop, but unverified_queue_stop_tx already closed
+2026-01-09 19:10:18.580 +00:00 main INFO ckb_stop_handler::stop_register  Waiting thread ChainService done.
+2026-01-09 19:10:18.581 +00:00 main INFO ckb_stop_handler::stop_register  All ckb threads have been stopped
+2026-01-09 19:10:19.130 +00:00 main INFO ckb_bin  Waiting for all tokio tasks to exit...
+2026-01-09 19:10:19.130 +00:00 main INFO ckb_bin  All tokio tasks and threads have exited. CKB shutdown
