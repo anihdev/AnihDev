@@ -94,3 +94,8 @@ After entering the wallet password, the command returned a transaction hash, con
 - Explore more transaction types in the Developer Training Course
 
 
+wallet transfer --from-account ckt1qzda0cr08m85hc8jlnfp3zer7xulejywt49kt2rr0vthywaa50xwsqwgx292hnvmn68xf779vmzrshpmm6epn4c0cgwga --to-address ckt1qzda0cr08m85hc8jlnfp3zer7xulejywt49kt2rr0vthywaa50xwsqgmtpmzyasq74na22xk4txpmzcx6kq8gdc36jh6s --capacity 100000
+
+rpc get_transaction --hash 0x65c46d0b105f6349c6aa76990adc953b6c352afe4f9d5bb03d030b15541c9a81
+
+rpc get_live_cell --tx-hash 0x65c46d0b105f6349c6aa76990adc953b6c352afe4f9d5bb03d030b15541c9a81 --index 1
